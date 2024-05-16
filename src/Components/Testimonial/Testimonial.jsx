@@ -56,7 +56,7 @@ function Testimonial() {
                                 </div>
 
                                 <blockquote className="flex-1 mt-8">
-                                    <p className="text-lg leading-relaxed text-gray-900 font-pj">“GreenWays Infra's noise barriers exceeded my expectations! They effectively reduced noise pollution in our industrial facility without compromising on quality. Highly recommend their services.”</p>
+                                    <p className="text-lg leading-relaxed text-gray-900 font-pj">“"TIPL excels in infrastructure and electrical projects, delivering quality results with professionalism, expertise, and reliability.”</p>
                                 </blockquote>
                             </div>
 
@@ -102,7 +102,7 @@ function Testimonial() {
                                 </div>
 
                                 <blockquote className="flex-1 mt-8">
-                                    <p className="text-lg leading-relaxed text-gray-900 font-pj">“Impressed with the professionalism and efficiency of GreenWays Infra. The noise barrier installation at our residential complex was seamless, and we've noticed a significant reduction in street noise.”</p>
+                                    <p className="text-lg leading-relaxed text-gray-900 font-pj">“TIPL excels in infrastructure and electrical projects, delivering exceptional results with professionalism, expertise, and commitment.”</p>
                                 </blockquote>
                             </div>
 
@@ -148,7 +148,7 @@ function Testimonial() {
                                 </div>
 
                                 <blockquote className="flex-1 mt-8">
-                                    <p className="text-lg leading-relaxed text-gray-900 font-pj">“Choosing GreenWays Infra for our noise barrier needs was a game-changer for our restaurant. Customers can now enjoy their meals without the disturbance of nearby traffic. Great job, team!”</p>
+                                    <p className="text-lg leading-relaxed text-gray-900 font-pj">“TIPL delivers unparalleled expertise, professionalism, and quality, making them our trusted partner for infrastructure projects.”</p>
                                 </blockquote>
                             </div>
 
