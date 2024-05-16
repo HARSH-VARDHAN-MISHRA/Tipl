@@ -328,7 +328,7 @@
 
 
 .active-service-hover {
-    top: 100% !important;
+    top: 0% !important;
 }
 
 .header .container nav ul .services-pointer .services-hover a {
@@ -506,7 +506,7 @@
         left: 120%;
         z-index: 9;
         width: 360%;
-        top: 2% !important;
+        /* top: 2% !important; */
     }
 
     .header .container nav ul .services-pointer .services-hover .safety-hover {
