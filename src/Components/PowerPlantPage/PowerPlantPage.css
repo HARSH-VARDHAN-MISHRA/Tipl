@@ -1,0 +1,126 @@
+.metallicBarrierPage-section{
+    width: 100%;
+}
+
+.metallicBarrierPage-section .container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.metallicBarrierPage-section .container .heading{
+    width: 100%;
+    text-align: center;
+}
+
+.metallicBarrierPage-section .container .heading span{
+    font-size: 30px;
+    font-weight: 600;
+    color: #008F49;
+    text-shadow: 2px 2px rgb(189, 189, 189);
+}
+
+.metallicBarrierPage-section .container .main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.metallicBarrierPage-section .container .main-container .img-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.metallicBarrierPage-section .container .main-container .img-parent .img{
+    width: 48%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.metallicBarrierPage-section .container .main-container .img-parent .for-img-full{
+    width: 100% !important;
+    height: 400px;
+}
+
+.metallicBarrierPage-section .container .main-container .imgheight-parent{
+    height: 400px;
+}
+
+.metallicBarrierPage-section .container .main-container .img-parent .for-top-image{
+    height: 500px;
+}
+
+/* .metallicBarrierPage-section .container .main-container .img-parent .for-img-full{
+} */
+
+.metallicBarrierPage-section .container .main-container .img-parent .for-img-full img{
+    object-position: center !important;
+}
+
+.forcontain{
+    object-fit: contain !important;
+}
+
+.metallicBarrierPage-section .container .main-container .img-parent .for-img-full img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.metallicBarrierPage-section .container .main-container .img-parent .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.metallicBarrierPage-section .container .main-container .product-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.metallicBarrierPage-section .container .main-container .product-detail p{
+    font-size: 16px;
+    color: rgb(104, 104, 104);
+}
+
+.metallicBarrierPage-section .container .main-container .product-detail p a{
+    color: red;
+}
+
+.for-flex{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.for-height{
+    height: 300px !important;
+}
+
+.for-img-width{
+    width: 48% !important;
+}
+
+@media (max-width:750px) {
+
+    .metallicBarrierPage-section .container{
+        padding: 30px 20px;
+    }
+    
+}
+
+@media (max-width:600px) {
+    .metallicBarrierPage-section .container .main-container .img-parent{
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .metallicBarrierPage-section .container .main-container .img-parent .img{
+        width: 100%;
+    }
+}

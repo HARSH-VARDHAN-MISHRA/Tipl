@@ -1,0 +1,118 @@
+.aboutPage-section{
+    width: 100%;
+}
+
+.aboutPage-section .about-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.aboutPage-section .about-container .heading{
+    width: 100%;
+    text-align: center;
+}
+
+.aboutPage-section .about-container .heading span{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.aboutPage-section .about-container .main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aboutPage-section .about-container .main-container .row-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutPage-section .about-container .main-container .row-1 .left{
+    width: 48%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.aboutPage-section .about-container .main-container .row-1 .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutPage-section .about-container .main-container .row-1 .right{
+    width: 48%;
+}
+
+/* .aboutPage-section .about-container .main-container .row-2{
+    width: 100%;
+    
+} */
+
+
+
+.aboutPage-section .about-container .main-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.aboutPage-section .about-container .main-container table th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.aboutPage-section .about-container .main-container th {
+    background-color: #f2f2f2;
+}
+@media only screen and (max-width: 700px) {
+    .aboutPage-section .about-container .main-container .row-1{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .aboutPage-section .about-container .main-container .row-1 .left{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .aboutPage-section .about-container .main-container .row-1 .right{
+        width: 100%;
+    }
+    .aboutPage-section .about-container{
+        padding: 40px 20px;
+    }
+    .aboutPage-section .about-container .main-container table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    .aboutPage-section .about-container .main-container thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .aboutPage-section .about-container .main-container tr {
+        border: 1px solid #ccc;
+    }
+    .aboutPage-section .about-container .main-container td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        /* padding-left: 50%; */
+    }
+    .aboutPage-section .about-container .main-container td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        content: attr(data-label);
+    }
+}

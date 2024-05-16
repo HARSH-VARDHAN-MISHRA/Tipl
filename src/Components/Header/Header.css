@@ -1,0 +1,565 @@
+.header {
+    width: 100%;
+    background-color: rgb(246, 244, 244);
+    height: 80px;
+    box-shadow: 0px 0px 10px rgb(190, 190, 190);
+}
+
+.header .container {
+    height: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    position: relative;
+}
+
+
+.header .container .logo {
+    height: 100%;
+    /* height: 200px; */
+}
+
+.header .container .logo img {
+    /* padding: 5px; */
+    height: 100%;
+    object-fit: contain;
+    width: 280px;
+}
+
+.header .container nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header .container nav .main-ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header .container nav ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .container nav ul li a {
+    display: inline-block;
+    height: 100%;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.header .container nav ul .about-pointer {
+    position: relative;
+}
+
+.header .container nav ul .about-pointer .about-hover {
+    position: absolute;
+    top: -15425%;
+    left: 0;
+    width: 300%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgb(167, 167, 167);
+    height: 70px;
+    z-index: 999;
+}
+
+.active-about-hover {
+    top: 100% !important;
+}
+
+.header .container nav ul .about-pointer .about-hover a {
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-left: 10px;
+    transition: all 0.2s linear;
+}
+
+.header .container nav ul .about-pointer .about-hover a:hover {
+    /* background-color: #2E3F97; */
+    background-color: #008F49;
+    color: white;
+}
+
+.header .container nav ul .services-pointer {
+    position: relative;
+}
+
+.header .container nav ul .services-pointer .services-hover {
+    position: absolute;
+    top: -15500%;
+    left: -50%;
+    width: 450%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgb(167, 167, 167);
+    height: 300px;
+    z-index: 999;
+}
+
+.header .container nav ul .services-pointer .services-hover .noise-pointer {
+    position: relative;
+    height: 32px;
+}
+
+.header .container nav ul .services-pointer .services-hover .noise-hover {
+    width: 85%;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    /* top: 0%; */
+    top: -111111%;
+    left: -85%;
+    background-color: white;
+    border: 1px solid rgb(144, 144, 144);
+}
+
+.active-noise-hover {
+    top: 0% !important;
+}
+
+.header .container nav ul .services-pointer .services-hover  .noise-hover .mono-absorptive-pointer {
+    position: relative;
+    height: 32px;
+}
+
+.header .container nav ul .services-pointer .services-hover  .noise-hover .mono-absorptive-hover {
+    width: 115%;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    /* top: 0%; */
+    top: -111111%;
+    left: -115%;
+    background-color: white;
+    border: 1px solid rgb(144, 144, 144);
+}
+
+.active-mono-absorptive-hover {
+    top: 0% !important;
+}
+
+.header .container nav ul .services-pointer .services-hover  .noise-hover .bi-absorptive-pointer {
+    position: relative;
+    height: 32px;
+}
+
+.header .container nav ul .services-pointer .services-hover  .noise-hover .bi-absorptive-hover {
+    width: 115%;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    /* top: 0%; */
+    top: -111111%;
+    left: -115%;
+    background-color: white;
+    border: 1px solid rgb(144, 144, 144);
+}
+
+.active-bi-absorptive-hover {
+    top: 0% !important;
+}
+
+.header .container nav ul .services-pointer .services-hover .reflective-pointer {
+    position: relative;
+    height: 32px;
+}
+
+.header .container nav ul .services-pointer .services-hover .reflective-hover {
+    width: 85%;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    /* top: 0%; */
+    top: -111111%;
+    left: -85%;
+    background-color: white;
+    border: 1px solid rgb(144, 144, 144);
+}
+
+.active-reflective-hover {
+    top: 8% !important;
+}
+
+.header .container nav ul .services-pointer .services-hover  .reflective-hover .polycarbonate-pointer {
+    position: relative;
+    height: 32px;
+}
+
+.header .container nav ul .services-pointer .services-hover  .reflective-hover .polycarbonate-hover {
+    width: 115%;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    /* top: 0%; */
+    top: -111111%;
+    left: -115%;
+    background-color: white;
+    border: 1px solid rgb(144, 144, 144);
+}
+
+.active-polycarbonate-hover {
+    top: 0% !important;
+}
+
+.header .container nav ul .services-pointer .services-hover .safety-pointer {
+    position: relative;
+    height: 32px;
+}
+
+.header .container nav ul .services-pointer .services-hover .safety-hover {
+    width: 85%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    /* top: 0%; */
+    top: -111111%;
+    left: -85%;
+    background-color: white;
+    border: 1px solid rgb(144, 144, 144);
+}
+
+.active-safety-hover {
+    top: 51% !important;
+}
+
+.header .container nav ul .services-pointer .services-hover .wind-pointer {
+    position: relative;
+    height: 32px;
+}
+
+.header .container nav ul .services-pointer .services-hover .wind-hover {
+    width: 85%;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    /* top: 0%; */
+    top: -111111%;
+    left: -85%;
+    background-color: white;
+    border: 1px solid rgb(144, 144, 144);
+}
+
+.active-wind-hover {
+    top: 67% !important;
+}
+
+.header .container nav ul .services-pointer .services-hover .roofing-pointer {
+    position: relative;
+    height: 32px;
+}
+
+.header .container nav ul .services-pointer .services-hover .roofing-hover {
+    width: 85%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    /* top: 57%; */
+    top: -111111%;
+    left: -85%;
+    background-color: white;
+    border: 1px solid rgb(144, 144, 144);
+}
+
+.active-roofing-hover {
+    top: 75% !important;
+}
+
+.for-ul-height{
+    height: 32px !important;
+}
+
+.header .container nav ul .services-pointer .services-hover .road-safety-pointer {
+    position: relative;
+    height: 32px;
+}
+
+.header .container nav ul .services-pointer .services-hover .road-safety-hover {
+    width: 85%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: -111111%;
+    left: -85%;
+    background-color: white;
+    border: 1px solid rgb(144, 144, 144);
+}
+
+.active-road-safety-hover {
+    top: 39% !important;
+}
+
+
+
+.active-service-hover {
+    top: 100% !important;
+}
+
+.header .container nav ul .services-pointer .services-hover a {
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-left: 10px;
+    transition: all 0.2s linear;
+}
+
+.header .container nav ul .services-pointer .services-hover a:hover {
+    background-color: #008F49;
+    color: white;
+}
+
+.header .container nav ul .career-pointer {
+    position: relative;
+}
+
+.header .container nav ul .career-pointer .career-hover {
+    position: absolute;
+    top: -15500%;
+    left: 0;
+    width: 500%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgb(167, 167, 167);
+    height: 100px;
+    z-index: 999;
+}
+
+.active-career-hover {
+    top: 100% !important;
+}
+
+.header .container nav ul .career-pointer .career-hover a {
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-left: 10px;
+    transition: all 0.2s linear;
+}
+
+.header .container nav ul .career-pointer .career-hover a:hover {
+    background-color: #2E3F97;
+    color: white;
+}
+
+
+.header .container nav ul .client-pointer {
+    position: relative;
+}
+
+.header .container nav ul .client-pointer .client-hover {
+    position: absolute;
+    top: -16500%;
+    left: 0;
+    width: 180%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgb(167, 167, 167);
+    height: 100px;
+    z-index: 999;
+}
+
+.active-client-hover {
+    top: 100% !important;
+}
+
+.header .container nav ul .client-pointer .client-hover a {
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-left: 10px;
+    transition: all 0.2s linear;
+}
+
+.header .container nav ul .client-pointer .client-hover a:hover {
+    /* background-color: #2E3F97; */
+    background-color: #008F49;
+    color: white;
+}
+
+.menu-bar {
+    display: none;
+}
+
+.menu-bar i {
+    font-size: 32px;
+}
+
+
+@media (max-width:870px) {
+    .menu-bar {
+        display: block;
+    }
+
+    .main-ul {
+        align-items: flex-start !important;
+        justify-content: flex-start;
+        position: absolute;
+        left: -200%;
+        bottom: -439%;
+        width: 100%;
+        height: 350px !important;
+        width: 100%;
+        flex-direction: column;
+        /* background-color: #2E3F97; */
+        background-color: #008F49;
+        transition: all 0.2s linear;
+        padding: 20px 12px;
+
+        z-index: 99999;
+    }
+
+    .mainmenudropdown {
+        left: 0%;
+    }
+
+    .main-ul li .for-white {
+        color: white !important;
+    }
+
+    .header .container nav ul .client-pointer .client-hover {
+        left: 110%;
+        z-index: 9;
+    }
+
+    .active-client-hover {
+        top: 0% !important;
+    }
+
+    .header .container nav ul .career-pointer .career-hover {
+        left: 110%;
+        z-index: 9;
+    }
+
+    .header .container nav ul .services-pointer .services-hover .reflective-hover {
+        width: 120%;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+    
+        position: absolute;
+        /* top: 0%; */
+        top: -111111%;
+        left:75%;
+    }
+
+    .active-career-hover {
+        top: 0% !important;
+    }
+
+    .header .container nav ul .services-pointer .services-hover .road-safety-hover {
+        width: 90% !important;
+        left: auto;
+        right: -90% !important;
+    }
+
+    .header .container nav ul .services-pointer .services-hover .roofing-hover {
+        width: 94% !important;
+        left: auto;
+        right: -94% !important;
+    }
+
+    .header .container nav ul .services-pointer .services-hover {
+        left: -15%;
+        z-index: 9;
+        width: 270%;
+    }
+
+    .header .container nav ul .services-pointer .services-hover .safety-hover {
+    right: -85%;
+    left: auto;
+}
+
+.header .container nav ul .services-pointer .services-hover .wind-hover {
+    width: 85%;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* top: 0%; */
+    top: -111111%;
+    right: -85%;
+    left: auto;
+    background-color: white;
+    border: 1px solid rgb(144, 144, 144);
+}
+
+.active-road-safety-hover {
+    top: 30% !important;
+}
+
+    .header .container nav ul .services-pointer .services-hover .noise-hover {
+        width: 110%;
+        right: -90% !important;
+        left: auto !important;
+        z-index: 999999;
+    }
+
+    .header .container nav ul .services-pointer .services-hover .roofing-hover {
+        width: 110%;
+        left: auto;
+        right: -110%;
+    }
+
+    .header .container nav ul .services-pointer .services-hover .road-safety-hover {
+        width: 110%;
+        left: auto;
+        right: -110%;
+    }
+
+    .active-services-hover {
+        top: 0% !important;
+    }
+
+    .header .container nav ul .about-pointer .about-hover {
+        left: 110%;
+        z-index: 9;
+    }
+
+    .active-about-hover {
+        top: 0% !important;
+    }
+}
