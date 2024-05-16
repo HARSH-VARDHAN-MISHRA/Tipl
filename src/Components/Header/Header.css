@@ -1,4 +1,4 @@
-.header {
+    .header {
     width: 100%;
     background-color: rgb(246, 244, 244);
     height: 80px;
@@ -503,9 +503,10 @@
     }
 
     .header .container nav ul .services-pointer .services-hover {
-        left: -15%;
+        left: 120%;
         z-index: 9;
-        width: 270%;
+        width: 360%;
+        top: 2% !important;
     }
 
     .header .container nav ul .services-pointer .services-hover .safety-hover {
